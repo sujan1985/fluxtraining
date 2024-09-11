@@ -8,4 +8,4 @@ spec:
   interval: 1m0s
   ref:
     branch: infrastructure
-  url: https://github.com/suja1985/bb-app-source
+  url: https://github.com/sujan1985/bb-app-source.git
