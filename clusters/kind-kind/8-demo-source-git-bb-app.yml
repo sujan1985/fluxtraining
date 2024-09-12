@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: 8-demo
-  url: https://github.com/sujan1985/bb-app-source
+  secretRef:
+    name: 8-demo-git-bb-app-auth
+  url: ssh://git@github.com/sujan1985/bb-app-source.git
